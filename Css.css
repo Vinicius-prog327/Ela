@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image:url(molang.jpg);
+  padding: 20px;
+
+  margin: 0;
+  padding: 0; 
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+.ticket {
+  width: 300px;
+  background-color: #ffffff7f;
+  border: 2px dashed #000000;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 35px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.ticket-content {
+  text-align: center;
+}
+
+.ticket-content h3 {
+  font-size: 1.5em;
+  margin: 0;
+  color: #000000;
+}
+
+.ticket-content p {
+  margin: 8px 0;
+  font-size: 1em;
+  color: #000000;
+}
+
+.button {
+  width: 55px;  
+  height: 20px;
+  border-radius: 30px;
+  background: #ffffff7f;
+  border-bottom: #000000;
+  cursor: pointer;
+}
+
+
